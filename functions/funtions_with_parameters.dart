@@ -1,12 +1,15 @@
 void main() {
-  printMessage('Hello, Dart!'); // Function call with argument
-
-  printMessage("Sinan agian food kaichoo??");
-  printMessage("sugam aanoo");
+  int response = prajithFunction("hey Prajith");
+  print(response);
 }
 
-void printMessage(String message) {
-  print("jhvcbvhgv");
-  print("jvcbxhjvgcx");
-  print(message); // Function definition with parameter
+int sumation(int number1, int number2) {
+  int result = number1 + number2;
+
+  return result;
+}
+
+int prajithFunction(String getting) {
+  print(getting);
+  return 10;
 }

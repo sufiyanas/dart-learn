@@ -1,5 +1,5 @@
 void main() {
-  int result = add(3, 5);
+  int result = add(10, 5);
   print('Sum: $result');
 }
 

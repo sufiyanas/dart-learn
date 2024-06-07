@@ -1,11 +1,8 @@
-void main() async {
-  print('not Done');
-
-  await printMessage();
-  print('Done');
+void main() {
+  printMessage();
 }
 
-Future<void> printMessage() async {
-  await Future.delayed(Duration(seconds: 2));
+void printMessage() async {
+  await Future.delayed(Duration(seconds: 5));
   print('Hello after 2 seconds');
 }
